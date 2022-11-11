@@ -1,0 +1,42 @@
+.card {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    height: 272px;
+    overflow: hidden;
+    width: 262px;
+}
+
+.cardHeader {
+    height: 91.9px;
+    width: 100%;
+}
+
+.cardBody {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-family: "Montserrat";
+    width: 100%;
+}
+
+.cardBody > :first-child {
+    color: #6278f7;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 90px;
+}
+
+.cardBody > p {
+    margin: 0 0 10px 0;
+}
+
+.img {
+    border-radius: 50%;
+    height: 120px;
+    position: relative;
+    top: 40.4px;
+    width: 120px;
+}

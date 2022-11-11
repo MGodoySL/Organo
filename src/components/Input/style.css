@@ -1,0 +1,33 @@
+.input {
+    /* height: 80px; */
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    margin-top: 1rem;
+    background: #ffffff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 0px;
+    width: 100%;
+    padding: 2rem;
+    color: #a4a4a4;
+    box-sizing: border-box;
+}
+
+.input:focus {
+    border: 0 none;
+    outline: none;
+}
+
+.label {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 2rem !important;
+    display: block;
+    color: #212121;
+}
+

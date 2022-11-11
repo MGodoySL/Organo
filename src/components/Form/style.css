@@ -1,0 +1,47 @@
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    width: 100wh;
+}
+
+.title {
+    font-family: Prata;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 43px;
+    margin: 0;
+    text-align: left;
+}
+
+.CardForm {
+    background: #f7f7f7;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.08);
+    padding: 4rem;
+    width: 50%;
+}
+
+.button {
+    background: #6278f7;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    height: 80px;
+    letter-spacing: 0em;
+    line-height: 24px;
+    margin-top: 2rem;
+    mix-blend-mode: normal;
+    text-align: center;
+    width: 167px;
+}
+
+.button:hover {
+    color: #95ffd4
+}
+
