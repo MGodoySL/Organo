@@ -22,7 +22,6 @@ export const Form = (props) => {
         setmemberImage("");
         setmemberTeam("");
     };
-
     return (
         <section className='section'>
             <form action="submit" className="CardForm" onSubmit={salvar}>
