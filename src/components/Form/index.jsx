@@ -1,22 +1,27 @@
 import './style.css'
 import { Input } from '../Input';
 import { useState } from "react";
+import { v4 as uuidv4 } from 'uuid';
 
 
 export const Form = (props) => {
 
+    const [memberId, setmemberId] = useState("");
     const [memberName, setmemberName] = useState("");
     const [memberPosition, setmemberPosition] = useState("");
     const [memberImage, setmemberImage] = useState("");
     const [memberTeam, setmemberTeam] = useState("");
     const salvar = (e) => {
+        setmemberId(uuidv4());
         e.preventDefault();
         props.onSave({
+            memberId,
             memberName,
             memberPosition,
             memberImage,
             memberTeam,
         });
+    
         setmemberName("");
         setmemberPosition("");
         setmemberImage("");
